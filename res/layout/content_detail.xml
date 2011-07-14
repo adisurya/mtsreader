@@ -10,6 +10,7 @@
     android:layout_height="wrap_content"
     android:onClick="openBrowser"
     android:clickable="true"    
+    android:textStyle="bold"
   />
   <TextView
     android:id="@+id/pubDate"
