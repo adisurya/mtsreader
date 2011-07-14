@@ -16,34 +16,75 @@ import org.mcsoxford.rss.RSSItem;
 import org.mcsoxford.rss.RSSReader;
 
 import android.app.ListActivity;
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class ChannelContents extends ListActivity {
+public class ChannelContents extends ListActivity implements Runnable {
 
 	public static int contentId = 0;
 	public static List<String> rssTitles = new ArrayList<String>();
 	public static List<String> rssDescs = new ArrayList<String>();
 	public static List<Date> rssPubDates = new ArrayList<Date>();
 	public static List<Uri> rssUris = new ArrayList<Uri>();
+	public ProgressDialog dialog;
 
 	
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        
+        updateChannels();
+    	String title = getResources().getStringArray(R.array.channels_title)[MediaIndonesiaChannels.channelId];
 
-        String title = getResources().getStringArray(R.array.channels_title)[MediaIndonesiaChannels.channelId];
-
-        //setListAdapter(new ArrayAdapter<String>(this, R.layout.channels, countries));
         setTitle(title);
-        
+
+    }
+
+    @Override
+    protected void onListItemClick(ListView l, View v, int position, long id) {
+    	
+    	super.onListItemClick(l, v, position, id);
+    	
+    	contentId = position;
+    	Intent contentDetailIntent = new Intent(this, ContentDetail.class);
+    	startActivity(contentDetailIntent);
+
+    }
+    
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.rss_menu, menu);
+        return true;
+    }
+    
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+        	case R.id.update:
+        		updateChannels();
+	            return true;
+	        default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+    
+    public void updateChannels() {
+    	dialog = ProgressDialog.show(this, "Working..", "Updating data");
+    	Thread thread = new Thread(this);
+    	thread.start();
+    }
+    
+    public void run() {        
         String url = getResources().getStringArray(R.array.channels_url)[MediaIndonesiaChannels.channelId];
 
         // get redirected url
@@ -63,7 +104,7 @@ public class ChannelContents extends ListActivity {
 
         } 
         catch (Exception e) {
-        	Toast.makeText(this, "connection error", Toast.LENGTH_LONG).show();
+        	showToast("connection error");
         	return;
         }
         
@@ -88,23 +129,45 @@ public class ChannelContents extends ListActivity {
         	}
         }
         catch (Exception e) {
-        	Toast.makeText(this, "rss parsing error", Toast.LENGTH_LONG).show();
+        	showToast("rss parsing error");
         	return;
         }
-        setListAdapter(new ArrayAdapter<String>(this, R.layout.channels, rssTitles));
 
-    }
-
-    @Override
-    protected void onListItemClick(ListView l, View v, int position, long id) {
-    	
-    	super.onListItemClick(l, v, position, id);
-    	
-    	contentId = position;
-    	Intent contentDetailIntent = new Intent(this, ContentDetail.class);
-    	startActivity(contentDetailIntent);
-
+    	closeDialog();
     }
     
+    private void closeDialog() {
+    	runOnUiThread(new Runnable() {
+    		public void run() {
+    			dialog.dismiss();
+    			updateListView();
+    		}
+    	});    	
+    }
+        
+    private void updateListView() {
+		setListAdapter(new ArrayAdapter<String>(this, R.layout.channels, rssTitles));
+    }
+
+    private void showToast(String msg, int length) {
+    	final String _msg = msg;
+    	final int _length = length;
+
+    	runOnUiThread(new Runnable() {
+    		public void run() {
+	            Toast.makeText(
+						ChannelContents.this, 
+						_msg,
+						_length
+					).show();
+    		}
+    	});
+
+    }
+
+    private void showToast(String msg) {
+    	showToast(msg, Toast.LENGTH_SHORT);
+    }
+
 
 }
