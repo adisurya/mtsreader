@@ -26,4 +26,5 @@
         <item>http://www.mediaindonesia.com/rss/10/hiburan</item>
         <item>http://www.mediaindonesia.com/rss/11/opini</item>
     </string-array>
+        <string name="Update">Update</string>
 </resources>
