@@ -5,7 +5,6 @@
         android:icon="@android:drawable/ic_popup_sync" 
         android:id="@+id/update" 
         android:title="@string/Update"
-        android:onClick="updateChannels"
     >
     </item>
 </menu>

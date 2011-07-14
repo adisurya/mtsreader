@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.TextView;
@@ -34,6 +36,13 @@ public class ContentDetail extends Activity {
     	String uri = ChannelContents.rssUris.get(ChannelContents.contentId).toString();
     	Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
     	startActivity(browserIntent);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.content_detail, menu);
+        return true;
     }
 
 
