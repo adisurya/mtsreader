@@ -45,7 +45,7 @@ public class ChannelContents extends ListActivity implements Runnable {
         updateChannels();
     	String title = getResources().getStringArray(R.array.channels_title)[MediaIndonesiaChannels.channelId];
 
-        setTitle(title);
+        setTitle("Media Indonesia - " + title);
 
     }
 

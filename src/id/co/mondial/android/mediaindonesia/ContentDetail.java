@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class ContentDetail extends Activity {
 	
@@ -16,7 +15,9 @@ public class ContentDetail extends Activity {
     public void onCreate(Bundle savedInstanceState) {
     	super.onCreate(savedInstanceState);
         setContentView(R.layout.content_detail);
+        setTitle("Media Indonesia");
 
+        
         TextView title = (TextView) findViewById(R.id.title);
         title.setText(ChannelContents.rssTitles.get(ChannelContents.contentId));
         TextView pubDate = (TextView) findViewById(R.id.pubDate);
