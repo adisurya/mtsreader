@@ -22,7 +22,7 @@ public class ContentDetail extends Activity {
 
     	setContentView(R.layout.content_detail);
         
-        TextView title = (TextView) findViewById(R.id.titlex);
+        TextView title = (TextView) findViewById(R.id.title);
         title.setText(ChannelContents.rssTitles.get(ChannelContents.contentId));
         TextView pubDate = (TextView) findViewById(R.id.pubDate);
         pubDate.setText(ChannelContents.rssPubDates.get(ChannelContents.contentId).toLocaleString());

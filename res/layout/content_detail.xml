@@ -13,7 +13,7 @@
     android:padding="4px"
   />
   <TextView
-    android:id="@+id/titlex"
+    android:id="@+id/title"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:onClick="openBrowser"
@@ -28,6 +28,16 @@
   <WebView
     android:id="@+id/webview"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_height="wrap_content"
   />
+  <TextView
+    android:id="@+id/viewOnBrowser"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="openBrowser"
+    android:clickable="true"    
+    android:textStyle="bold"
+    android:text="@string/viewOnBrowser"
+  />
+
 </LinearLayout>

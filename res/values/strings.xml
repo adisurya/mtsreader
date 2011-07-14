@@ -27,4 +27,5 @@
         <item>http://www.mediaindonesia.com/rss/11/opini</item>
     </string-array>
         <string name="Update">Update</string>
+        <string name="viewOnBrowser">View on Web Browser</string>
 </resources>
