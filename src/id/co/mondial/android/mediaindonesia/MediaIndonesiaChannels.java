@@ -15,8 +15,6 @@ public class MediaIndonesiaChannels extends ListActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTitle("Media Indonesia");
-
 
         String[] channels = getResources().getStringArray(R.array.channels_title);
         setListAdapter(new ArrayAdapter<String>(this, R.layout.channels, channels));        

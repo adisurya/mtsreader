@@ -8,6 +8,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
 import android.webkit.WebView;
 import android.widget.TextView;
 
@@ -17,11 +18,11 @@ public class ContentDetail extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
     	super.onCreate(savedInstanceState);
-        setContentView(R.layout.content_detail);
-        setTitle("Media Indonesia");
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
 
+    	setContentView(R.layout.content_detail);
         
-        TextView title = (TextView) findViewById(R.id.title);
+        TextView title = (TextView) findViewById(R.id.titlex);
         title.setText(ChannelContents.rssTitles.get(ChannelContents.contentId));
         TextView pubDate = (TextView) findViewById(R.id.pubDate);
         pubDate.setText(ChannelContents.rssPubDates.get(ChannelContents.contentId).toLocaleString());
