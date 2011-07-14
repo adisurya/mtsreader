@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@android:drawable/ic_menu_view" android:title="View on Web Browser" android:id="@+id/item1"></item>
+    <item android:icon="@android:drawable/ic_menu_view" android:title="View on Web Browser" android:id="@+id/openBrowser"></item>
 </menu>

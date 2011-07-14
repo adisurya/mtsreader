@@ -6,6 +6,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.TextView;
@@ -32,10 +33,13 @@ public class ContentDetail extends Activity {
     }
     
     public void openBrowser(View v) {
-    	//Toast.makeText(this, ChannelContents.rssUris.get(ChannelContents.contentId).toString(), Toast.LENGTH_SHORT).show();
+    	openBrowser();
+    }
+    
+    public void openBrowser() {
     	String uri = ChannelContents.rssUris.get(ChannelContents.contentId).toString();
     	Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
-    	startActivity(browserIntent);
+    	startActivity(browserIntent);    	
     }
 
     @Override
@@ -45,5 +49,15 @@ public class ContentDetail extends Activity {
         return true;
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+        	case R.id.openBrowser:
+        		openBrowser();
+        		return true;
+	        default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 
 }
