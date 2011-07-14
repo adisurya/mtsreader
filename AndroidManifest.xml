@@ -16,6 +16,6 @@
         </activity>
         <activity android:name=".ChannelContents" />
         <activity android:name=".ContentDetail" />
-
+        <activity android:name=".About" />
     </application>
 </manifest>

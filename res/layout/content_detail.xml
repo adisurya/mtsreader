@@ -29,15 +29,26 @@
     android:id="@+id/webview"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
+    android:background="#ffffff"
   />
-  <TextView
-    android:id="@+id/viewOnBrowser"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:onClick="openBrowser"
-    android:clickable="true"    
-    android:textStyle="bold"
-    android:text="@string/viewOnBrowser"
-  />
+  <LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:orientation="vertical"
+	  android:gravity="bottom"
+	  android:background="#ffffff"
+  >
+	  <TextView
+	    android:id="@+id/viewOnBrowser"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:onClick="openBrowser"
+	    android:clickable="true"    
+	    android:textStyle="bold"
+	    android:text="@string/viewOnBrowser"
+	    android:gravity="bottom"
+	    android:background="#000000"
+	  />
+  </LinearLayout>
 
 </LinearLayout>

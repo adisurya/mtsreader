@@ -73,7 +73,11 @@ public class ChannelContents extends ListActivity implements Runnable {
         	case R.id.update:
         		updateChannels();
 	            return true;
-	        default:
+        	case R.id.about:
+            	Intent aboutIntent = new Intent(this, About.class);
+            	startActivity(aboutIntent);
+            	return true;
+        	default:
                 return super.onOptionsItemSelected(item);
         }
     }

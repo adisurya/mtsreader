@@ -56,6 +56,10 @@ public class ContentDetail extends Activity {
         	case R.id.openBrowser:
         		openBrowser();
         		return true;
+        	case R.id.about:
+            	Intent aboutIntent = new Intent(this, About.class);
+            	startActivity(aboutIntent);
+            	return true;
 	        default:
                 return super.onOptionsItemSelected(item);
         }
