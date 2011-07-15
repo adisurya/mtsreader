@@ -30,11 +30,4 @@
 		<nature>com.android.ide.eclipse.adt.AndroidNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>org_mcsoxford_rss_src</name>
-			<type>2</type>
-			<locationURI>_android_org_mcsoxford_rss_5718dcf9/src</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>
