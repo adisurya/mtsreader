@@ -4,3 +4,5 @@ local.properties
 build.xml
 build.properties
 keystore
+new-brands/*/tmp
+new-brands/releases/*.apk
