@@ -1,4 +1,4 @@
-package id.co.mondial.android.rss.mediaindonesia;
+package id.co.mondial.android.rss.mtsreader;
 
 import java.util.ArrayList;
 import java.util.Date;
