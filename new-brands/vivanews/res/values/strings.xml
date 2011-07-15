@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">vivanews.com</string>
+    <string-array name="channels_title">
+        <item>Seluruh Kanal</item>
+        <item>Politik</item>
+        <item>Korupsi</item>
+        <item>Bisnis</item>
+        <item>Nasional</item>
+        <item>Metro</item>
+        <item>Dunia</item>
+        <item>Teknologi</item>
+        <item>English</item>
+        <item>Sport</item>
+        <item>Bola</item>
+        <item>Showbiz</item>
+        <item>Kosmo</item>
+        <item>Otomotif</item>
+        <item>Sorot</item>
+        <item>Analisis</item>
+    </string-array>
+    <string-array name="channels_url">
+        <item>http://rss.vivanews.com/get/all</item>
+        <item>http://rss.vivanews.com/get/politik</item>
+        <item>http://rss.vivanews.com/get/korupsi</item>
+        <item>http://rss.vivanews.com/get/bisnis</item>
+        <item>http://rss.vivanews.com/get/nasional</item>
+        <item>http://rss.vivanews.com/get/metro</item>
+        <item>http://rss.vivanews.com/get/dunia</item>
+        <item>http://rss.vivanews.com/get/teknologi</item>
+        <item>http://rss.vivanews.com/get/english</item>
+        <item>http://rss.vivanews.com/get/sport</item>
+        <item>http://rss.vivanews.com/get/bola</item>
+        <item>http://rss.vivanews.com/get/showbiz</item>
+        <item>http://rss.vivanews.com/get/kosmo</item>
+        <item>http://rss.vivanews.com/get/otomotif</item>
+        <item>http://rss.vivanews.com/get/sorot</item>
+        <item>http://rss.vivanews.com/get/analisis</item>
+
+    </string-array>
+        <string name="Update">Update</string>
+        <string name="viewOnBrowser">View on Web Browser</string>
+        <string name="About">About</string>
+        <string name="AboutDesc">Unofficial android application to read vivanews.com.\n\nDeveloped by Mondial Teknologi Solusi, PT\nhttp://www.mondial.co.id</string>
+
+</resources>

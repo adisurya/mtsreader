@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  <ImageView
+    android:src="@drawable/header"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scaleType="matrix"  
+    android:background="#c80108"
+    android:padding="4px"
+  />
+  <TextView
+    android:id="@+id/title"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="openBrowser"
+    android:clickable="true"    
+    android:textStyle="bold"
+  />
+  <TextView
+    android:id="@+id/pubDate"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"    
+  />
+  <WebView
+    android:id="@+id/webview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+  />
+  <LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:orientation="vertical"
+	  android:gravity="bottom"
+	  android:background="#ffffff"
+  >
+	  <TextView
+	    android:id="@+id/viewOnBrowser"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:onClick="openBrowser"
+	    android:clickable="true"    
+	    android:textStyle="bold"
+	    android:text="@string/viewOnBrowser"
+	    android:gravity="bottom"
+	    android:background="#000000"
+	  />
+  </LinearLayout>
+
+</LinearLayout>

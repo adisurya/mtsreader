@@ -1,7 +1,7 @@
 BRAND_DIR = new-brands
 RELEASES_DIR = $(BRAND_DIR)/releases
 
-all: mediaindonesia kompas
+all: mediaindonesia kompas vivanews
 
 clean:
 	rm -rf $(RELEASES_DIR)/*.apk
@@ -12,3 +12,6 @@ mediaindonesia: clean
 
 kompas: clean
 	cd $(BRAND_DIR)/kompas && make
+
+vivanews: clean
+	cd $(BRAND_DIR)/vivanews && make
