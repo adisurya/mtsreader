@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MediaIndonesiaChannels!</string>
+    <string name="app_name">Media Indonesia</string>
+    <string-array name="channels_title">
+        <item>Politik</item>
+        <item>Ekonomi</item>
+        <item>Olah Raga</item>
+        <item>Sepak Bola</item>
+        <item>Megapolitan</item>
+        <item>Mancanegara</item>
+        <item>Iptek</item>
+        <item>Humaniora</item>
+        <item>Hiburan</item>
+        <item>Opini</item>
+    </string-array>
+    <string-array name="channels_url">
+        <item>http://www.mediaindonesia.com/rss/1/politik</item>
+        <item>http://www.mediaindonesia.com/rss/2/ekonomi</item>
+        <item>http://www.mediaindonesia.com/rss/3/olahraga</item>
+        <item>http://www.mediaindonesia.com/rss/4/sepakbola</item>
+        <item>http://www.mediaindonesia.com/rss/5/megapolitan</item>
+        <item>http://www.mediaindonesia.com/rss/6/mancanegara</item>
+        <item>http://www.mediaindonesia.com/rss/7/iptek</item>
+        <item>http://www.mediaindonesia.com/rss/14/humaniora</item>
+        <item>http://www.mediaindonesia.com/rss/10/hiburan</item>
+        <item>http://www.mediaindonesia.com/rss/11/opini</item>
+    </string-array>
+        <string name="Update">Update</string>
+        <string name="viewOnBrowser">View on Web Browser</string>
+        <string name="About">About</string>
+        <string name="AboutDesc">Unofficial android application to read Media Indonesia news website.\n\nDeveloped by Mondial Teknologi Solusi, PT\nhttp://www.mondial.co.id</string>
+
+</resources>
