@@ -1,4 +1,4 @@
-package id.co.mondial.android.mediaindonesia;
+package id.co.mondial.android.rss.mediaindonesia;
 
 import android.app.ListActivity;
 import android.content.Intent;

@@ -1,4 +1,4 @@
-package id.co.mondial.android.mediaindonesia;
+package id.co.mondial.android.rss.mediaindonesia;
 
 import android.app.Activity;
 import android.os.Bundle;
