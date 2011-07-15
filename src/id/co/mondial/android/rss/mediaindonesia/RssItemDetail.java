@@ -20,7 +20,7 @@ public class RssItemDetail extends Activity {
     	super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
 
-    	setContentView(R.layout.content_detail);
+    	setContentView(R.layout.item_detail);
         
         TextView title = (TextView) findViewById(R.id.title);
         title.setText(RssItems.rssTitles.get(RssItems.contentId));
