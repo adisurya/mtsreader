@@ -3,8 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="fill_parent"
   android:layout_height="fill_parent"
-  android:orientation="vertical"
-  >
+  android:orientation="vertical">
   <ImageView
     android:src="@drawable/header"
     android:layout_width="fill_parent"
@@ -13,11 +12,10 @@
     android:background="#ffffff"
     android:padding="4px"
   />
-  <TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/AboutDesc"
-    android:autoLink="all"
-    android:paddingTop="10px"
-    />
+  <ListView
+    android:id="@android:id/list"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+  />
 </LinearLayout>

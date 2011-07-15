@@ -42,10 +42,13 @@ public class RssItems extends ListActivity implements Runnable {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        updateChannels();
-    	String title = getResources().getStringArray(R.array.channels_title)[RssFeeds.channelId];
 
-        setTitle(getResources().getText(R.string.app_name) + " - " + title);
+        setContentView(R.layout.main_list);
+
+        updateChannels();
+        
+    	String title = getResources().getStringArray(R.array.channels_title)[RssFeeds.channelId];
+        setTitle(title);
 
     }
 
@@ -150,7 +153,7 @@ public class RssItems extends ListActivity implements Runnable {
     }
         
     private void updateListView() {
-		setListAdapter(new ArrayAdapter<String>(this, R.layout.channels, rssTitles));
+		setListAdapter(new ArrayAdapter<String>(this, R.layout.list_item, rssTitles));
     }
 
     private void showToast(String msg, int length) {

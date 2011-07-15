@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -18,10 +19,13 @@ public class RssFeeds extends ListActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        
+    	setContentView(R.layout.main_list);
+        
         String[] channels = getResources().getStringArray(R.array.channels_title);
-        setListAdapter(new ArrayAdapter<String>(this, R.layout.channels, channels));        
-
+        setListAdapter(new ArrayAdapter<String>(this, R.layout.list_item, channels));
+        
     }
     
     @Override
