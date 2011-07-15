@@ -4,7 +4,7 @@ RELEASES_DIR = $(BRAND_DIR)/releases
 all: mediaindonesia kompas
 
 clean:
-	rm -rf $(RELEASES_DIR)/*
+	rm -rf $(RELEASES_DIR)/*.apk
 	cd $(BRAND_DIR)/mediaindonesia && make clean
 
 mediaindonesia: clean
