@@ -12,7 +12,7 @@ import android.view.Window;
 import android.webkit.WebView;
 import android.widget.TextView;
 
-public class ContentDetail extends Activity {
+public class RssItemDetail extends Activity {
 	
 	/** Called when the activity is first created. */
     @Override
@@ -23,13 +23,13 @@ public class ContentDetail extends Activity {
     	setContentView(R.layout.content_detail);
         
         TextView title = (TextView) findViewById(R.id.title);
-        title.setText(ChannelContents.rssTitles.get(ChannelContents.contentId));
+        title.setText(RssItems.rssTitles.get(RssItems.contentId));
         TextView pubDate = (TextView) findViewById(R.id.pubDate);
-        pubDate.setText(ChannelContents.rssPubDates.get(ChannelContents.contentId).toLocaleString());
+        pubDate.setText(RssItems.rssPubDates.get(RssItems.contentId).toLocaleString());
 
         WebView mWebView = (WebView) findViewById(R.id.webview);
         mWebView.getSettings().setJavaScriptEnabled(true);
-        String data = ChannelContents.rssDescs.get(ChannelContents.contentId);
+        String data = RssItems.rssDescs.get(RssItems.contentId);
         mWebView.loadData(data, "text/html", "utf-8");
     }
     
@@ -38,7 +38,7 @@ public class ContentDetail extends Activity {
     }
     
     public void openBrowser() {
-    	String uri = ChannelContents.rssUris.get(ChannelContents.contentId).toString();
+    	String uri = RssItems.rssUris.get(RssItems.contentId).toString();
     	Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
     	startActivity(browserIntent);    	
     }

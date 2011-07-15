@@ -28,7 +28,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class ChannelContents extends ListActivity implements Runnable {
+public class RssItems extends ListActivity implements Runnable {
 
 	public static int contentId = 0;
 	public static List<String> rssTitles = new ArrayList<String>();
@@ -43,7 +43,7 @@ public class ChannelContents extends ListActivity implements Runnable {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         updateChannels();
-    	String title = getResources().getStringArray(R.array.channels_title)[MediaIndonesiaChannels.channelId];
+    	String title = getResources().getStringArray(R.array.channels_title)[RssFeeds.channelId];
 
         setTitle(getResources().getText(R.string.app_name) + " - " + title);
 
@@ -55,7 +55,7 @@ public class ChannelContents extends ListActivity implements Runnable {
     	super.onListItemClick(l, v, position, id);
     	
     	contentId = position;
-    	Intent contentDetailIntent = new Intent(this, ContentDetail.class);
+    	Intent contentDetailIntent = new Intent(this, RssItemDetail.class);
     	startActivity(contentDetailIntent);
 
     }
@@ -89,7 +89,7 @@ public class ChannelContents extends ListActivity implements Runnable {
     }
     
     public void run() {        
-        String url = getResources().getStringArray(R.array.channels_url)[MediaIndonesiaChannels.channelId];
+        String url = getResources().getStringArray(R.array.channels_url)[RssFeeds.channelId];
 
         // get redirected url
         HttpClient client = new DefaultHttpClient();
@@ -160,7 +160,7 @@ public class ChannelContents extends ListActivity implements Runnable {
     	runOnUiThread(new Runnable() {
     		public void run() {
 	            Toast.makeText(
-						ChannelContents.this, 
+						RssItems.this, 
 						_msg,
 						_length
 					).show();

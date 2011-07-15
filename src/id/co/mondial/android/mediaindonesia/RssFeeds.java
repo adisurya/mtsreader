@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class MediaIndonesiaChannels extends ListActivity {
+public class RssFeeds extends ListActivity {
     
 	public static int channelId = 0;
 	
@@ -30,7 +30,7 @@ public class MediaIndonesiaChannels extends ListActivity {
     	super.onListItemClick(l, v, position, id);
     	
     	channelId = position;
-    	Intent channelContentsIntent = new Intent(this, ChannelContents.class);
+    	Intent channelContentsIntent = new Intent(this, RssItems.class);
     	startActivity(channelContentsIntent);
 
     }
