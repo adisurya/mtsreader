@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TNOL RSS Reader</string>
+    <string-array name="channels_title">
+        <item>Utama</item>
+        <item>Dari Komunitas</item>
+        <item>Komunitas Bicara</item>
+        <item>Aktifitas</item>
+        <item>Intermor</item>
+        <item>Blog Komunitas</item>
+        <item>Profil</item>
+        <item>Cerpen</item>
+        <item>Cerber</item>
+        <item>Puisi</item>
+        <item>TNOL Peduli</item>
+    </string-array>
+    <string-array name="channels_url">
+        <item>http://www.tnol.co.id/id.feed?type=rss</item>
+        <item>http://www.tnol.co.id/community/community-writes.feed?type=rss</item>
+        <item>http://www.tnol.co.id/community-says.feed?type=rss</item>
+        <item>http://www.tnol.co.id/community/activities.feed?type=rss</item>
+        <item>http://www.tnol.co.id/-intermor.feed?type=rss</item>
+        <item>http://www.tnol.co.id/my-blog.feed?type=rss</item>
+        <item>http://www.tnol.co.id/special-guest.feed?type=rss</item>
+        <item>http://www.tnol.co.id/cerpen.feed?type=rss</item>
+        <item>http://www.tnol.co.id/cerber.feed?type=rss</item>
+        <item>http://www.tnol.co.id/puisi.feed?type=rss</item>
+        <item>http://www.tnol.co.id/tnol-peduli.feed?type=rss</item>
+    </string-array>
+        <string name="Update">Update</string>
+        <string name="viewOnBrowser">View on Web Browser</string>
+        <string name="About">About</string>
+        <string name="AboutDesc">Unofficial android application to read RSS from TNOL website.\n\nDeveloped by Mondial Teknologi Solusi, PT\nhttp://www.mondial.co.id</string>
+</resources>
