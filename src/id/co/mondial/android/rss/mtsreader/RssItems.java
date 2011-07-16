@@ -112,6 +112,7 @@ public class RssItems extends ListActivity implements Runnable {
         } 
         catch (Exception e) {
         	showToast("connection error");
+        	closeDialog();
         	return;
         }
         
