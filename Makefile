@@ -11,7 +11,7 @@ clean:
 	cd $(BRAND_DIR)/tnol && make clean
 
 mediaindonesia:
-	cd $(BRAND_DIR)/kompas && make
+	cd $(BRAND_DIR)/mediaindonesia && make
 
 kompas:
 	cd $(BRAND_DIR)/kompas && make
