@@ -31,7 +31,7 @@ public class RssFeeds extends ListActivity {
     	setContentView(R.layout.main_list);
         
         String[] channels = getResources().getStringArray(R.array.channels_title);
-        setListAdapter(new ArrayAdapter<String>(this, R.layout.list_item, channels));
+        setListAdapter(new ArrayAdapter<String>(this, R.layout.feeds, channels));
 
         tracker.trackPageView("/" + getResources().getString(R.string.tracker_prefix) + "/home");
     	tracker.dispatch();

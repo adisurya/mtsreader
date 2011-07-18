@@ -15,8 +15,6 @@ import org.mcsoxford.rss.RSSFeed;
 import org.mcsoxford.rss.RSSItem;
 import org.mcsoxford.rss.RSSReader;
 
-import com.google.android.apps.analytics.GoogleAnalyticsTracker;
-
 import android.app.ListActivity;
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -26,9 +24,10 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.google.android.apps.analytics.GoogleAnalyticsTracker;
 
 public class RssItems extends ListActivity implements Runnable {
 
@@ -167,7 +166,12 @@ public class RssItems extends ListActivity implements Runnable {
     }
         
     private void updateListView() {
-		setListAdapter(new ArrayAdapter<String>(this, R.layout.list_item, rssTitles));
+		//setListAdapter(new ArrayAdapter<Date>(this, R.layout.list_item, R.id.date, rssPubDates));
+		//setListAdapter(new ArrayAdapter<String>(this, R.layout.list_item, R.id.label, rssTitles));
+		MySimpleArrayAdapter adapter = new MySimpleArrayAdapter(this, rssTitles, rssPubDates);
+		setListAdapter(adapter);
+
+
     }
 
     private void showToast(String msg, int length) {
@@ -196,6 +200,5 @@ public class RssItems extends ListActivity implements Runnable {
     	
     	tracker.stop();
     }
-
 
 }
