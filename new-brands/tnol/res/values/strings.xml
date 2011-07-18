@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">TNOL RSS Reader</string>
-    <string name="tracker_prefix">tnol.com</string>
+    <string name="tracker_prefix">tnol.co.id</string>
 
     <string-array name="channels_title">
         <item>Utama</item>
