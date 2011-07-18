@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">antaranews.com</string>
+    <string name="tracker_prefix">antaranews.com</string>
+
+    <string-array name="channels_title">
+        <item>ANTARA News Terkini</item>
+
+        <item>ANTARA Top News</item>
+
+        <item>Nasional</item>
+        <item>Nasional - Umum</item>
+        <item>Nasional - Polkam</item>
+        <item>Nasional - Hukum</item>
+        <item>Nasional - Pendidikan</item>
+        <item>Nasional - Kesehatan</item>
+        <item>Nasional - Naker</item>
+        <item>Nasional - Unik</item>
+
+        <item>Internasional</item>
+        <item>Internasional - Asiaoseania</item>
+        <item>Internasional - Amerika</item>
+        <item>Internasional - Eropa</item>
+        <item>Internasional - Timur Tengah</item>
+        <item>Internasional - Afrika</item>
+
+        <item>Ekonomi</item>
+        <item>Ekonomi - Makro</item>
+        <item>Ekonomi - Moneter</item>
+        <item>Ekonomi - Bisnis</item>
+        <item>Ekonomi - Bursa</item>
+        <item>Ekonomi - Edukasi Bisnis</item>
+        <item>Ekonomi - Info Perbankan</item>
+        <item>Ekonomi - Market Focus</item>
+
+        <item>Olahraga</item>
+        <item>Olahraga - Sepakbola</item>
+        <item>Olahraga - Tenis</item>
+        <item>Olahraga - Bulutangkis</item>
+        <item>Olahraga - Basket</item>
+        <item>Olahraga - Tinju</item>
+        <item>Olahraga - Balap</item>
+        <item>Olahraga - Umum</item>
+
+        <item>Hiburan</item>
+        <item>Hiburan - Sinema</item>
+        <item>Hiburan - Musik</item>
+        <item>Hiburan - Selebriti</item>
+        <item>Hiburan - Seni Budaya</item>
+        <item>Hiburan - Gaya Hidup</item>
+
+        <item>Teknologi</item>
+        <item>Teknologi - Sains</item>
+        <item>Teknologi - Komputer</item>
+        <item>Teknologi - Gadget</item>
+        <item>Teknologi - Internet</item>
+
+        <item>Warta Bumi</item>
+        <item>Warta Bumi - Pemanasan Global</item>
+        <item>Warta Bumi - Flora Fauna</item>
+        <item>Warta Bumi - Pencemaran</item>
+
+        <item>Artikel</item>
+        <item>Artikel - Spektrum</item>
+        <item>Artikel - Komentar</item>
+        <item>Artikel - Pumpunan</item>
+        <item>Artikel - Opini</item>
+        <item>Artikel - Buku</item>
+        <item>Artikel - Antara Kita</item>
+        <item>Artikel - Jeda</item>
+        <item>Artikel - Visi</item>
+    </string-array>
+
+    <string-array name="channels_url">
+        <item>http://antaranews.com/rss/terkini</item>
+        <item>http://antaranews.com/rss/top-news</item>
+        <item>http://antaranews.com/rss/nasional</item>
+        <item>http://antaranews.com/rss/nasional-umum</item>
+        <item>http://antaranews.com/rss/nasional-polkam</item>
+        <item>http://antaranews.com/rss/nasional-hukum</item>
+        <item>http://antaranews.com/rss/nasional-pendidikan</item>
+        <item>http://antaranews.com/rss/nasional-kesehatan</item>
+        <item>http://antaranews.com/rss/nasional-naker</item>
+        <item>http://antaranews.com/rss/nasional-unik</item>
+        <item>http://antaranews.com/rss/internasional</item>
+        <item>http://antaranews.com/rss/internasional-asiaoseania</item>
+        <item>http://antaranews.com/rss/internasional-amerika</item>
+        <item>http://antaranews.com/rss/internasional-eropa</item>
+        <item>http://antaranews.com/rss/internasional-timur-tengah</item>
+        <item>http://antaranews.com/rss/internasional-afrika</item>
+        <item>http://antaranews.com/rss/ekonomi</item>
+        <item>http://antaranews.com/rss/ekonomi-makro</item>
+        <item>http://antaranews.com/rss/ekonomi-moneter</item>
+        <item>http://antaranews.com/rss/ekonomi-bisnis</item>
+        <item>http://antaranews.com/rss/ekonomi-bursa</item>
+        <item>http://antaranews.com/rss/ekonomi-edukasi-bisnis</item>
+        <item>http://antaranews.com/rss/ekonomi-info-perbankan</item>
+        <item>http://antaranews.com/rss/ekonomi-market-focus</item>
+        <item>http://antaranews.com/rss/olahraga</item>
+        <item>http://antaranews.com/rss/olahraga-sepakbola</item>
+        <item>http://antaranews.com/rss/olahraga-tenis</item>
+        <item>http://antaranews.com/rss/olahraga-bulutangkis</item>
+        <item>http://antaranews.com/rss/olahraga-basket</item>
+        <item>http://antaranews.com/rss/olahraga-tinju</item>
+        <item>http://antaranews.com/rss/olahraga-balap</item>
+        <item>http://antaranews.com/rss/olahraga-umum</item>
+        <item>http://antaranews.com/rss/hiburan</item>
+        <item>http://antaranews.com/rss/hiburan-sinema</item>
+        <item>http://antaranews.com/rss/hiburan-musik</item>
+        <item>http://antaranews.com/rss/hiburan-selebriti</item>
+        <item>http://antaranews.com/rss/hiburan-seni-budaya</item>
+        <item>http://antaranews.com/rss/hiburan-gaya-hidup</item>
+        <item>http://antaranews.com/rss/teknologi</item>
+        <item>http://antaranews.com/rss/teknologi-sains</item>
+        <item>http://antaranews.com/rss/teknologi-komputer</item>
+        <item>http://antaranews.com/rss/teknologi-Gadget</item>
+        <item>http://antaranews.com/rss/teknologi-internet</item>
+        <item>http://antaranews.com/rss/warta-bumi</item>
+        <item>http://antaranews.com/rss/warta-bumi-pemanasan-global</item>
+        <item>http://antaranews.com/rss/warta-bumi-flora-fauna</item>
+        <item>http://antaranews.com/rss/warta-bumi-pencemaran</item>
+        <item>http://antaranews.com/rss/artikel</item>
+        <item>http://antaranews.com/rss/artikel-spektrum</item>
+        <item>http://antaranews.com/rss/artikel-komentar</item>
+        <item>http://antaranews.com/rss/artikel-pumpunan</item>
+        <item>http://antaranews.com/rss/artikel-opini</item>
+        <item>http://antaranews.com/rss/artikel-buku</item>
+        <item>http://antaranews.com/rss/artikel-antara-kita</item>
+        <item>http://antaranews.com/rss/artikel-jeda</item>
+        <item>http://antaranews.com/rss/artikel-visi</item>
+    </string-array>
+        <string name="Update">Update</string>
+        <string name="viewOnBrowser">View on Web Browser</string>
+        <string name="About">About</string>
+        <string name="AboutDesc"><![CDATA[Unofficial android application to read antaranews.com.\n\nAplikasi ini dikembangkan secara independen oleh PT. MONDIAL TEKNOLOGI SOLUSI (MTS, http://www.mondial.co.id) dengan menggunakan MTSREADER.\n\nDapatkan aplikasi-aplikasi lain di https://market.android.com/search?q=mts+reader&so=1&c=apps]]></string>
+
+</resources>
