@@ -41,6 +41,7 @@ public class RssItemDetail extends Activity {
         mWebView.getSettings().setJavaScriptEnabled(true);
         String data = RssItems.rssDescs.get(RssItems.contentId);
         mWebView.loadData(data, "text/html", "utf-8");
+        
     }
     
     public void openBrowser(View v) {
