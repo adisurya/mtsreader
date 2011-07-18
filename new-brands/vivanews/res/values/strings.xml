@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">vivanews.com</string>
+    <string name="tracker_prefix">vivanews.com</string>
+
     <string-array name="channels_title">
         <item>Seluruh Kanal</item>
         <item>Politik</item>

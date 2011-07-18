@@ -1,5 +1,7 @@
 package id.co.mondial.android.rss.mtsreader;
 
+import com.google.android.apps.analytics.GoogleAnalyticsTracker;
+
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,17 +16,25 @@ import android.widget.ListView;
 public class RssFeeds extends ListActivity {
     
 	public static int channelId = 0;
+	GoogleAnalyticsTracker tracker;
+
 	
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
+
+    	tracker = GoogleAnalyticsTracker.getInstance();
+    	tracker.start("UA-22304301-3", this);
         
     	setContentView(R.layout.main_list);
         
         String[] channels = getResources().getStringArray(R.array.channels_title);
         setListAdapter(new ArrayAdapter<String>(this, R.layout.list_item, channels));
+
+        tracker.trackPageView("/" + getResources().getString(R.string.tracker_prefix) + "/home");
+    	tracker.dispatch();
         
     }
     
@@ -56,6 +66,13 @@ public class RssFeeds extends ListActivity {
 	        default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+    
+    @Override
+    protected void onDestroy() {
+    	super.onDestroy();
+    	
+    	tracker.stop();
     }
 
 }

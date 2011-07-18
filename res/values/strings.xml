@@ -9,9 +9,10 @@
         <item>http://www.mondial.co.id/rss.xml</item>
         <item>http://atom2rss.semiologic.com/?atom=http%3A%2F%2Fandroid-developers.blogspot.com%2Fatom.xml</item>
     </string-array>
-        <string name="Update">Update</string>
-        <string name="viewOnBrowser">View on Web Browser</string>
-        <string name="About">About</string>
-        <string name="AboutDesc">Unofficial android application to read Media Indonesia news website.\n\nDeveloped by Mondial Teknologi Solusi, PT\nhttp://www.mondial.co.id</string>
+    <string name="Update">Update</string>
+    <string name="viewOnBrowser">View on Web Browser</string>
+    <string name="About">About</string>
+    <string name="AboutDesc">Unofficial android application to read Media Indonesia news website.\n\nDeveloped by Mondial Teknologi Solusi, PT\nhttp://www.mondial.co.id</string>
+    <string name="tracker_prefix">mtsreader</string>
 
 </resources>

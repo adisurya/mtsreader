@@ -8,7 +8,8 @@ release: clean
 	cp -rf $(SRCDIR)/*.properties $(BUILDROOT)
 	cp -rf $(SRCDIR)/*.cfg $(BUILDROOT)
 	cp -rf $(SRCDIR)/keystore $(BUILDROOT)/
-	cp -rf $(SRCDIR)/src/ $(SRCDIR)/res/ $(BUILDROOT)
+	cp -rf $(SRCDIR)/src/ $(BUILDROOT)
+	cp -rf $(SRCDIR)/libs/ $(BUILDROOT)
 	cp -rf res/ $(BUILDROOT)
 	replace id.co.mondial.android.rss.mtsreader id.co.mondial.android.rss.$(TARGET) -- $(BUILDROOT)/src/id/co/mondial/android/rss/mtsreader/*.java $(BUILDROOT)/AndroidManifest.xml
 	mv  $(BUILDROOT)/src/id/co/mondial/android/rss/mtsreader/ $(BUILDROOT)/src/id/co/mondial/android/rss/$(TARGET)

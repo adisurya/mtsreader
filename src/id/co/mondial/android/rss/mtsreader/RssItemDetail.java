@@ -12,16 +12,26 @@ import android.view.Window;
 import android.webkit.WebView;
 import android.widget.TextView;
 
+import com.google.android.apps.analytics.GoogleAnalyticsTracker;
+
 public class RssItemDetail extends Activity {
-	
+	GoogleAnalyticsTracker tracker;
+
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
     	super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-
     	setContentView(R.layout.item_detail);
-        
+
+    	tracker = GoogleAnalyticsTracker.getInstance();
+    	tracker.start("UA-22304301-3", this);
+    	
+    	String uri = RssItems.rssUris.get(RssItems.contentId).toString();
+    	uri = uri.replaceFirst("http://", "/");
+    	tracker.trackPageView("/" + getResources().getString(R.string.tracker_prefix) + uri);
+    	tracker.dispatch();
+
         TextView title = (TextView) findViewById(R.id.title);
         title.setText(RssItems.rssTitles.get(RssItems.contentId));
         TextView pubDate = (TextView) findViewById(R.id.pubDate);
@@ -63,6 +73,13 @@ public class RssItemDetail extends Activity {
 	        default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    @Override
+    protected void onDestroy() {
+    	super.onDestroy();
+    	
+    	tracker.stop();
     }
 
 }

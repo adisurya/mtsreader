@@ -15,6 +15,8 @@ import org.mcsoxford.rss.RSSFeed;
 import org.mcsoxford.rss.RSSItem;
 import org.mcsoxford.rss.RSSReader;
 
+import com.google.android.apps.analytics.GoogleAnalyticsTracker;
+
 import android.app.ListActivity;
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -36,19 +38,30 @@ public class RssItems extends ListActivity implements Runnable {
 	public static List<Date> rssPubDates = new ArrayList<Date>();
 	public static List<Uri> rssUris = new ArrayList<Uri>();
 	public ProgressDialog dialog;
+	GoogleAnalyticsTracker tracker;
 
 	
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.main_list);
+
+        tracker = GoogleAnalyticsTracker.getInstance();
+    	tracker.start("UA-22304301-3", this);
+
+        tracker.trackPageView("/" + 
+        		getResources().getString(R.string.tracker_prefix) + 
+        		"/" + 
+        		getResources().getStringArray(R.array.channels_title)[RssFeeds.channelId]
+        	);
+    	tracker.dispatch();
 
         updateChannels();
         
     	String title = getResources().getStringArray(R.array.channels_title)[RssFeeds.channelId];
         setTitle(title);
+
 
     }
 
@@ -175,6 +188,13 @@ public class RssItems extends ListActivity implements Runnable {
 
     private void showToast(String msg) {
     	showToast(msg, Toast.LENGTH_SHORT);
+    }
+
+    @Override
+    protected void onDestroy() {
+    	super.onDestroy();
+    	
+    	tracker.stop();
     }
 
 

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, MediaIndonesiaChannels!</string>
     <string name="app_name">Media Indonesia</string>
+    <string name="tracker_prefix">mediaindonesia.com</string>
+
     <string-array name="channels_title">
         <item>Politik</item>
         <item>Ekonomi</item>

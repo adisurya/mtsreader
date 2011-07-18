@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Kompas News Reader</string>
+    <string name="tracker_prefix">kompas.com</string>
+
     <string-array name="channels_title">
         <item>All</item>
         <item>Rubrik Nasional</item>
