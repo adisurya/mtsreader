@@ -30,5 +30,5 @@
         <string name="Update">Update</string>
         <string name="viewOnBrowser">View on Web Browser</string>
         <string name="About">About</string>
-        <string name="AboutDesc"><![CDATA[Unofficial android application to read tnol.co.id.\n\nAplikasi ini dikembangkan secara independen oleh PT. MONDIAL TEKNOLOGI SOLUSI (MTS, http://www.mondial.co.id) dengan menggunakan MTSREADER.\n\nDapatkan aplikasi-aplikasi lain di https://market.android.com/search?q=mts+reader&so=1&c=apps]]></string>
+        <string name="AboutDesc"><![CDATA[Unofficial android application to read tnol.co.id.\n\nAplikasi ini dikembangkan secara independen oleh PT. MONDIAL TEKNOLOGI SOLUSI (MTS, http://www.mondial.co.id) dengan menggunakan MTSREADER.\n\nDapatkan aplikasi-aplikasi lain di\nhttps://market.android.com/search?q=mtsreader]]></string>
 </resources>
