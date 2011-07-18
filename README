@@ -1,5 +1,12 @@
 ANDROID MTSREADER
 -----------------
-namespace: id.co.mondial.rss.mtsreader
+
+namespace: id.co.mondial.android.rss.*
 
 A framework to create RSS Reader on Google Android
+
+Available build:
+* AntaraNews (https://market.android.com/details?id=id.co.mondial.android.rss.antaranews)
+* Media Indonesia (https://market.android.com/details?id=id.co.mondial.android.rss.mediaindonesia)
+* TNOL (https://market.android.com/details?id=id.co.mondial.android.rss.tnol)
+* Vivanews.com (https://market.android.com/details?id=id.co.mondial.android.rss.vivanews)
