@@ -6,7 +6,6 @@
     <string-array name="channels_title">
         <item>Utama</item>
         <item>Dari Komunitas</item>
-        <item>Komunitas Bicara</item>
         <item>Aktifitas</item>
         <item>Intermor</item>
         <item>Blog Komunitas</item>
@@ -19,7 +18,6 @@
     <string-array name="channels_url">
         <item>http://www.tnol.co.id/id.feed?type=rss</item>
         <item>http://www.tnol.co.id/community/community-writes.feed?type=rss</item>
-        <item>http://www.tnol.co.id/community-says.feed?type=rss</item>
         <item>http://www.tnol.co.id/community/activities.feed?type=rss</item>
         <item>http://www.tnol.co.id/-intermor.feed?type=rss</item>
         <item>http://www.tnol.co.id/my-blog.feed?type=rss</item>
