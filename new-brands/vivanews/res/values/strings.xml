@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">vivanews.com</string>
-    <string name="tracker_prefix">vivanews.com</string>
+    
+    <string name="analytics_tracker_id">UA-22304301-3</string>
+    <string name="tracker_home">vivanews</string>
+    <string name="tracker_about">vivanews/about</string>
+    <bool name="prefix_analytics_with_home_url">true</bool>
+    <bool name="prefix_analytics_with_hostname">false</bool>
 
     <string-array name="channels_title">
         <item>Seluruh Kanal</item>
@@ -38,10 +43,29 @@
         <item>http://rss.vivanews.com/get/otomotif</item>
         <item>http://rss.vivanews.com/get/sorot</item>
         <item>http://rss.vivanews.com/get/analisis</item>
-
     </string-array>
-        <string name="Update">Update</string>
-        <string name="viewOnBrowser">View on Web Browser</string>
-        <string name="About">About</string>
-        <string name="AboutDesc"><![CDATA[Unofficial android application to read vivanews.com.\n\nAplikasi ini dikembangkan secara independen oleh PT. MONDIAL TEKNOLOGI SOLUSI (MTS, http://www.mondial.co.id) dengan menggunakan MTSREADER.\n\nDapatkan aplikasi-aplikasi lain di\nhttps://market.android.com/search?q=mtsreader]]></string>
+    
+    <string-array name="channel_tracker_url">
+        <item>vivanews/all</item>
+        <item>vivanews/politik</item>
+        <item>vivanews/korupsi</item>
+        <item>vivanews/bisnis</item>
+        <item>vivanews/nasional</item>
+        <item>vivanews/metro</item>
+        <item>vivanews/dunia</item>
+        <item>vivanews/teknologi</item>
+        <item>vivanews/english</item>
+        <item>vivanews/sport</item>
+        <item>vivanews/bola</item>
+        <item>vivanews/showbiz</item>
+        <item>vivanews/kosmo</item>
+        <item>vivanews/otomotif</item>
+        <item>vivanews/sorot</item>
+        <item>vivanews/analisis</item>
+    </string-array>
+    
+	<string name="Update">Update</string>
+	<string name="viewOnBrowser">View on Web Browser</string>
+	<string name="About">About</string>
+    <string name="AboutDesc"><![CDATA[Unofficial android application to read vivanews.com.\n\nAplikasi ini dikembangkan secara independen oleh PT. MONDIAL TEKNOLOGI SOLUSI (MTS, http://www.mondial.co.id) dengan menggunakan MTSREADER.\n\nDapatkan aplikasi-aplikasi lain di\nhttps://market.android.com/search?q=mtsreader]]></string>
 </resources>
