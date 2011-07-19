@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- 
+        HARAP JANGAN JADIKAN FILE INI SEBAGAI DASAR UNTUK MEMBUAT TARGET BARU!!!!!
+        
+        Silahkan gunakan file lain sebagai template jika anda ingin membuat target baru.
+        TNOL menggunakan tracker id tersendiri untuk google analytics.
+    -->
     <string name="app_name">TNOL RSS Reader</string>
 
     <string name="analytics_tracker_id">UA-988791-10</string>
