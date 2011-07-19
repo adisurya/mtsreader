@@ -18,6 +18,7 @@ import org.mcsoxford.rss.RSSReader;
 import android.app.ListActivity;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
@@ -31,7 +32,9 @@ import com.google.android.apps.analytics.GoogleAnalyticsTracker;
 
 public class RssItems extends ListActivity implements Runnable {
 
+	public static final String SERIALIZED_NAME = "id.co.mondial.android.rss.mtsreader.rss_items";
 	public static int contentId = 0;
+	public static int channelId = -1;
 	public static List<String> rssTitles = new ArrayList<String>();
 	public static List<String> rssDescs = new ArrayList<String>();
 	public static List<Date> rssPubDates = new ArrayList<Date>();
@@ -45,6 +48,17 @@ public class RssItems extends ListActivity implements Runnable {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_list);
+        
+        // serialized
+        SharedPreferences serialized = getSharedPreferences(SERIALIZED_NAME, 0);
+        channelId = serialized.getInt("channelId", -1);
+        if (channelId == -1) {
+        	SharedPreferences.Editor serializedEditor = serialized.edit();
+        	
+        	channelId = RssFeeds.channelId;
+        	serializedEditor.putInt("channelId", channelId);
+        	serializedEditor.commit();
+        }
 
         tracker = GoogleAnalyticsTracker.getInstance();
     	tracker.start("UA-22304301-3", this);
@@ -52,13 +66,13 @@ public class RssItems extends ListActivity implements Runnable {
         tracker.trackPageView("/" + 
         		getResources().getString(R.string.tracker_prefix) + 
         		"/" + 
-        		getResources().getStringArray(R.array.channels_title)[RssFeeds.channelId]
+        		getResources().getStringArray(R.array.channels_title)[channelId]
         	);
     	tracker.dispatch();
 
         updateChannels();
         
-    	String title = getResources().getStringArray(R.array.channels_title)[RssFeeds.channelId];
+    	String title = getResources().getStringArray(R.array.channels_title)[channelId];
         setTitle(title);
 
 
@@ -68,6 +82,13 @@ public class RssItems extends ListActivity implements Runnable {
     protected void onListItemClick(ListView l, View v, int position, long id) {
     	
     	super.onListItemClick(l, v, position, id);
+    	
+    	// clear serialized data on detail activity
+    	SharedPreferences detailSerialized = getSharedPreferences(RssItemDetail.SERIALIZED_NAME, 0);
+    	SharedPreferences.Editor detailSerializedEditor = detailSerialized.edit();
+    	detailSerializedEditor.clear();
+    	detailSerializedEditor.commit();
+
     	
     	contentId = position;
     	Intent contentDetailIntent = new Intent(this, RssItemDetail.class);
@@ -104,7 +125,7 @@ public class RssItems extends ListActivity implements Runnable {
     }
     
     public void run() {        
-        String url = getResources().getStringArray(R.array.channels_url)[RssFeeds.channelId];
+        String url = getResources().getStringArray(R.array.channels_url)[channelId];
 
         // get redirected url
         HttpClient client = new DefaultHttpClient();
@@ -200,5 +221,5 @@ public class RssItems extends ListActivity implements Runnable {
     	
     	tracker.stop();
     }
-
+    
 }

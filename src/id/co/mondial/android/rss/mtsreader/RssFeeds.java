@@ -1,9 +1,8 @@
 package id.co.mondial.android.rss.mtsreader;
 
-import com.google.android.apps.analytics.GoogleAnalyticsTracker;
-
 import android.app.ListActivity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -12,6 +11,8 @@ import android.view.View;
 import android.view.Window;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.google.android.apps.analytics.GoogleAnalyticsTracker;
 
 public class RssFeeds extends ListActivity {
     
@@ -42,6 +43,12 @@ public class RssFeeds extends ListActivity {
     protected void onListItemClick(ListView l, View v, int position, long id) {
     	
     	super.onListItemClick(l, v, position, id);
+    	
+    	// clear serialized data on detail activity
+    	SharedPreferences itemsSerialized = getSharedPreferences(RssItems.SERIALIZED_NAME, 0);
+    	SharedPreferences.Editor itemsSerializedEditor = itemsSerialized.edit();
+    	itemsSerializedEditor.clear();
+    	itemsSerializedEditor.commit();
     	
     	channelId = position;
     	Intent channelContentsIntent = new Intent(this, RssItems.class);
@@ -74,5 +81,5 @@ public class RssFeeds extends ListActivity {
     	
     	tracker.stop();
     }
-
+    
 }
