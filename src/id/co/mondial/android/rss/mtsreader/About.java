@@ -19,7 +19,7 @@ public class About extends Activity {
 
     	setContentView(R.layout.about);
 
-    	tracker.trackPageView("/" + getResources().getString(R.string.tracker_prefix) + "/about");
+    	tracker.trackPageView("/" + getResources().getString(R.string.tracker_about));
     	tracker.dispatch();
     }
 

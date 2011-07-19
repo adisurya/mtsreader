@@ -3,7 +3,10 @@
     <string name="app_name">MTS Reader</string>
     
     <string name="analytics_tracker_id">UA-22304301-3</string>
-    <string name="tracker_prefix">mtsreader</string>
+    <string name="tracker_home">mtsreader</string>
+    <string name="tracker_about">mtsreader/about</string>
+    <bool name="prefix_analytics_with_home_url">true</bool>
+    <bool name="prefix_analytics_with_hostname">true</bool>
     
     <string-array name="channels_title">
         <item>Mondial Teknologi Solusi</item>

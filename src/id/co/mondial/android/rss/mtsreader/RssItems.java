@@ -64,10 +64,9 @@ public class RssItems extends ListActivity implements Runnable {
         tracker = GoogleAnalyticsTracker.getInstance();
     	tracker.start(getResources().getString(R.string.analytics_tracker_id), this);
 
-        tracker.trackPageView("/" + 
-        		getResources().getString(R.string.tracker_prefix) + 
+        tracker.trackPageView(
         		"/" + 
-        		getResources().getStringArray(R.array.channels_title)[channelId]
+        		getResources().getStringArray(R.array.channel_tracker_url)[channelId]
         	);
     	tracker.dispatch();
 

@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.Window;
 import android.webkit.WebView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.apps.analytics.GoogleAnalyticsTracker;
 
@@ -57,8 +58,25 @@ public class RssItemDetail extends Activity {
     	tracker = GoogleAnalyticsTracker.getInstance();
     	tracker.start(getResources().getString(R.string.analytics_tracker_id), this);
     	
-    	uri = uri.replaceFirst("http://", "/");
-    	tracker.trackPageView("/" + getResources().getString(R.string.tracker_prefix) + uri);
+    	//tracker.trackPageView("/" + getResources().getString(R.string.tracker_prefix) + uri);
+    	
+    	
+    	if (getResources().getBoolean(R.bool.prefix_analytics_with_hostname)) {
+    		uri = uri.replaceFirst("https?://", "/");
+    	} else {
+    		uri = uri.replaceFirst("https?://[^/]*", "");
+    	}
+    	
+    	if (getResources().getBoolean(R.bool.prefix_analytics_with_home_url)) {
+    		uri = uri.replaceFirst("^/*", "/");
+    		uri = getResources().getString(R.string.tracker_home) + uri;
+    	}
+    	
+    	uri = uri.replaceFirst("^/*", "/");
+    	
+    	Toast.makeText(this, uri, Toast.LENGTH_LONG).show();
+    	
+    	tracker.trackPageView(uri);
     	tracker.dispatch();
 
         TextView title = (TextView) findViewById(R.id.title);
