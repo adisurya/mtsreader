@@ -135,70 +135,70 @@
     </string-array>
     
     <string-array name="channel_tracker_url">
-        <item>terkini</item>
-        <item>topnews</item>
+        <item>antaranews/terkini</item>
+        <item>antaranews/topnews</item>
         
-        <item>nasional</item>
-        <item>nasional/umum</item>
-        <item>nasional/polkam</item>
-        <item>nasional/hukum</item>
-        <item>nasional/pendidikan</item>
-        <item>nasional/kesehatan</item>
-        <item>nasional/naker</item>
-        <item>nasional/unik</item>
+        <item>antaranews/nasional</item>
+        <item>antaranews/nasional/umum</item>
+        <item>antaranews/nasional/polkam</item>
+        <item>antaranews/nasional/hukum</item>
+        <item>antaranews/nasional/pendidikan</item>
+        <item>antaranews/nasional/kesehatan</item>
+        <item>antaranews/nasional/naker</item>
+        <item>antaranews/nasional/unik</item>
 
-        <item>internasional</item>
-        <item>internasional/asiaoseania</item>
-        <item>internasiona/amerika</item>
-        <item>internasional/eropa</item>
-        <item>internasional/timur-tengah</item>
-        <item>internasional/afrika</item>
+        <item>antaranews/internasional</item>
+        <item>antaranews/internasional/asiaoseania</item>
+        <item>antaranews/internasiona/amerika</item>
+        <item>antaranews/internasional/eropa</item>
+        <item>antaranews/internasional/timur-tengah</item>
+        <item>antaranews/internasional/afrika</item>
 
-        <item>ekonomi</item>
-        <item>ekonomi/makro</item>
-        <item>ekonomi/moneter</item>
-        <item>ekonomi/bisnis</item>
-        <item>ekonomi/bursa</item>
-        <item>ekonomi/edukasi-bisnis</item>
-        <item>ekonomi/info-perbankan</item>
-        <item>ekonomi/market-focus</item>
+        <item>antaranews/ekonomi</item>
+        <item>antaranews/ekonomi/makro</item>
+        <item>antaranews/ekonomi/moneter</item>
+        <item>antaranews/ekonomi/bisnis</item>
+        <item>antaranews/ekonomi/bursa</item>
+        <item>antaranews/ekonomi/edukasi-bisnis</item>
+        <item>antaranews/ekonomi/info-perbankan</item>
+        <item>antaranews/ekonomi/market-focus</item>
 
-        <item>olahraga</item>
-        <item>olahraga/sepakbola</item>
-        <item>olahraga/tenis</item>
-        <item>olahraga/bulutangkis</item>
-        <item>olahraga/basket</item>
-        <item>olahraga/tinju</item>
-        <item>olahraga/balap</item>
-        <item>olahraga/umum</item>
+        <item>antaranews/olahraga</item>
+        <item>antaranews/olahraga/sepakbola</item>
+        <item>antaranews/olahraga/tenis</item>
+        <item>antaranews/olahraga/bulutangkis</item>
+        <item>antaranews/olahraga/basket</item>
+        <item>antaranews/olahraga/tinju</item>
+        <item>antaranews/olahraga/balap</item>
+        <item>antaranews/olahraga/umum</item>
 
-        <item>hiburan</item>
-        <item>hiburan/sinema</item>
-        <item>hiburan/musik</item>
-        <item>hiburan/selebriti</item>
-        <item>hiburan/seni-budaya</item>
-        <item>hiburan/gaya-hidup</item>
+        <item>antaranews/hiburan</item>
+        <item>antaranews/hiburan/sinema</item>
+        <item>antaranews/hiburan/musik</item>
+        <item>antaranews/hiburan/selebriti</item>
+        <item>antaranews/hiburan/seni-budaya</item>
+        <item>antaranews/hiburan/gaya-hidup</item>
 
-        <item>teknologi</item>
-        <item>teknologi/sains</item>
-        <item>teknologi/komputer</item>
-        <item>teknologi/gadget</item>
-        <item>teknologi/internet</item>
+        <item>antaranews/teknologi</item>
+        <item>antaranews/teknologi/sains</item>
+        <item>antaranews/teknologi/komputer</item>
+        <item>antaranews/teknologi/gadget</item>
+        <item>antaranews/teknologi/internet</item>
 
-        <item>warta-bumi</item>
-        <item>warta-bumi/pemanasan-global</item>
-        <item>warta-bumi/flora-fauna</item>
-        <item>warta-bumi/pencemaran</item>
+        <item>antaranews/warta-bumi</item>
+        <item>antaranews/warta-bumi/pemanasan-global</item>
+        <item>antaranews/warta-bumi/flora-fauna</item>
+        <item>antaranews/warta-bumi/pencemaran</item>
 
-        <item>artikel</item>
-        <item>artikel/spektrum</item>
-        <item>artikel/komentar</item>
-        <item>artikel/pumpunan</item>
-        <item>artikel/opini</item>
-        <item>artikel/buku</item>
-        <item>artikel/antara-kita</item>
-        <item>artikel/jeda</item>
-        <item>artikel/visi</item>
+        <item>antaranews/artikel</item>
+        <item>antaranews/artikel/spektrum</item>
+        <item>antaranews/artikel/komentar</item>
+        <item>antaranews/artikel/pumpunan</item>
+        <item>antaranews/artikel/opini</item>
+        <item>antaranews/artikel/buku</item>
+        <item>antaranews/artikel/antara-kita</item>
+        <item>antaranews/artikel/jeda</item>
+        <item>antaranews/artikel/visi</item>
     </string-array>
 
     <string name="Update">Update</string>
