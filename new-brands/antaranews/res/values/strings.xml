@@ -6,7 +6,7 @@
     <string name="tracker_home">antaranews</string>
     <string name="tracker_about">antaranews/about</string>
     <bool name="prefix_analytics_with_home_url">true</bool>
-    <bool name="prefix_analytics_with_hostname">true</bool>
+    <bool name="prefix_analytics_with_hostname">false</bool>
     
     <string-array name="channels_title">
         <item>ANTARA News Terkini</item>
