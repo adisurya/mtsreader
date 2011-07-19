@@ -55,7 +55,7 @@ public class RssItemDetail extends Activity {
     	
     	// google analytics
     	tracker = GoogleAnalyticsTracker.getInstance();
-    	tracker.start("UA-22304301-3", this);
+    	tracker.start(getResources().getString(R.string.analytics_tracker_id), this);
     	
     	uri = uri.replaceFirst("http://", "/");
     	tracker.trackPageView("/" + getResources().getString(R.string.tracker_prefix) + uri);

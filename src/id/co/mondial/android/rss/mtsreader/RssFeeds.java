@@ -27,7 +27,7 @@ public class RssFeeds extends ListActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
 
     	tracker = GoogleAnalyticsTracker.getInstance();
-    	tracker.start("UA-22304301-3", this);
+    	tracker.start(getResources().getString(R.string.analytics_tracker_id), this);
         
     	setContentView(R.layout.main_list);
         

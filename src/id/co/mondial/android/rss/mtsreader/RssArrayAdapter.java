@@ -10,13 +10,12 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-
-public class MySimpleArrayAdapter extends ArrayAdapter<String> {
+public class RssArrayAdapter extends ArrayAdapter<String> {
 	private final Activity context;
 	private final List<String> titles;
 	private final List<Date> dates;
 
-	public MySimpleArrayAdapter(Activity context,List<String> titles, List<Date> dates) {
+	public RssArrayAdapter(Activity context, List<String> titles, List<Date> dates) {
 		super(context, R.layout.list_item, titles);
 		this.context = context;
 		this.titles = titles;

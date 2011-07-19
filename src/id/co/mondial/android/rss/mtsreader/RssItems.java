@@ -35,13 +35,14 @@ public class RssItems extends ListActivity implements Runnable {
 	public static final String SERIALIZED_NAME = "id.co.mondial.android.rss.mtsreader.rss_items";
 	public static int contentId = 0;
 	public static int channelId = -1;
+
 	public static List<String> rssTitles = new ArrayList<String>();
 	public static List<String> rssDescs = new ArrayList<String>();
 	public static List<Date> rssPubDates = new ArrayList<Date>();
 	public static List<Uri> rssUris = new ArrayList<Uri>();
+	
 	public ProgressDialog dialog;
 	GoogleAnalyticsTracker tracker;
-
 	
 	/** Called when the activity is first created. */
     @Override
@@ -61,7 +62,7 @@ public class RssItems extends ListActivity implements Runnable {
         }
 
         tracker = GoogleAnalyticsTracker.getInstance();
-    	tracker.start("UA-22304301-3", this);
+    	tracker.start(getResources().getString(R.string.analytics_tracker_id), this);
 
         tracker.trackPageView("/" + 
         		getResources().getString(R.string.tracker_prefix) + 
@@ -158,7 +159,7 @@ public class RssItems extends ListActivity implements Runnable {
         
     	try {
         	RSSFeed feed = reader.load(url);
-        	List<RSSItem> feedItems= feed.getItems();
+        	List<RSSItem> feedItems = feed.getItems();
         	Iterator<RSSItem> feedIterator = feedItems.iterator();
         	
         	while(feedIterator.hasNext()) {
@@ -187,12 +188,8 @@ public class RssItems extends ListActivity implements Runnable {
     }
         
     private void updateListView() {
-		//setListAdapter(new ArrayAdapter<Date>(this, R.layout.list_item, R.id.date, rssPubDates));
-		//setListAdapter(new ArrayAdapter<String>(this, R.layout.list_item, R.id.label, rssTitles));
-		MySimpleArrayAdapter adapter = new MySimpleArrayAdapter(this, rssTitles, rssPubDates);
+		RssArrayAdapter adapter = new RssArrayAdapter(this, rssTitles, rssPubDates);
 		setListAdapter(adapter);
-
-
     }
 
     private void showToast(String msg, int length) {

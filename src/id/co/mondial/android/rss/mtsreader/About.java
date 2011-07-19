@@ -14,7 +14,7 @@ public class About extends Activity {
     	super.onCreate(savedInstanceState);
     	
     	tracker = GoogleAnalyticsTracker.getInstance();
-    	tracker.start("UA-22304301-3", this);
+    	tracker.start(getResources().getString(R.string.analytics_tracker_id), this);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
 
     	setContentView(R.layout.about);
