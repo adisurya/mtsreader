@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">TNOL RSS Reader</string>
-    <string name="tracker_prefix">tnol.co.id</string>
 
+    <string name="analytics_tracker_id">UA-988791-10</string>
+    <string name="tracker_home">mtsreader</string>
+    <string name="tracker_about">mtsreader/about</string>
+    <bool name="prefix_analytics_with_home_url">false</bool>
+    <bool name="prefix_analytics_with_hostname">false</bool>
+    
     <string-array name="channels_title">
         <item>Utama</item>
         <item>Dari Komunitas</item>
@@ -15,6 +20,7 @@
         <item>Puisi</item>
         <item>TNOL Peduli</item>
     </string-array>
+    
     <string-array name="channels_url">
         <item>http://www.tnol.co.id/id.feed?type=rss</item>
         <item>http://www.tnol.co.id/community/community-writes.feed?type=rss</item>
@@ -27,8 +33,22 @@
         <item>http://www.tnol.co.id/puisi.feed?type=rss</item>
         <item>http://www.tnol.co.id/tnol-peduli.feed?type=rss</item>
     </string-array>
-        <string name="Update">Update</string>
-        <string name="viewOnBrowser">View on Web Browser</string>
-        <string name="About">About</string>
-        <string name="AboutDesc"><![CDATA[Unofficial android application to read tnol.co.id.\n\nAplikasi ini dikembangkan secara independen oleh PT. MONDIAL TEKNOLOGI SOLUSI (MTS, http://www.mondial.co.id) dengan menggunakan MTSREADER.\n\nDapatkan aplikasi-aplikasi lain di\nhttps://market.android.com/search?q=mtsreader]]></string>
+    
+    <string-array name="channel_tracker_url">
+        <item></item>
+        <item>id/community/community-writes.html</item>
+        <item>id/activities.html</item>
+        <item>id/-intermor.html</item>
+        <item>id/my-blog.html</item>
+        <item>id/special-guest.html</item>
+        <item>id/cerpen.html</item>
+        <item>id/cerber.html</item>
+        <item>id/puisi.html</item>
+        <item>id/tnol-peduli.html</item>
+    </string-array>
+    
+    <string name="Update">Update</string>
+    <string name="viewOnBrowser">View on Web Browser</string>
+    <string name="About">About</string>
+    <string name="AboutDesc"><![CDATA[Unofficial android application to read tnol.co.id.\n\nAplikasi ini dikembangkan secara independen oleh PT. MONDIAL TEKNOLOGI SOLUSI (MTS, http://www.mondial.co.id) dengan menggunakan MTSREADER.\n\nDapatkan aplikasi-aplikasi lain di\nhttps://market.android.com/search?q=mtsreader]]></string>
 </resources>

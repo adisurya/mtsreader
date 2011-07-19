@@ -12,7 +12,6 @@ import android.view.View;
 import android.view.Window;
 import android.webkit.WebView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.apps.analytics.GoogleAnalyticsTracker;
 
@@ -73,8 +72,6 @@ public class RssItemDetail extends Activity {
     	}
     	
     	uri = uri.replaceFirst("^/*", "/");
-    	
-    	Toast.makeText(this, uri, Toast.LENGTH_LONG).show();
     	
     	tracker.trackPageView(uri);
     	tracker.dispatch();
