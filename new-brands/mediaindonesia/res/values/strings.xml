@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Media Indonesia</string>
-    <string name="tracker_prefix">mediaindonesia.com</string>
+    
+    <string name="analytics_tracker_id">UA-22304301-3</string>
+    <string name="tracker_home">mediaindonesia</string>
+    <string name="tracker_about">mediaindonesia/about</string>
+    <bool name="prefix_analytics_with_home_url">true</bool>
+    <bool name="prefix_analytics_with_hostname">false</bool>
 
     <string-array name="channels_title">
         <item>Politik</item>
@@ -15,6 +20,7 @@
         <item>Hiburan</item>
         <item>Opini</item>
     </string-array>
+    
     <string-array name="channels_url">
         <item>http://www.mediaindonesia.com/rss/1/politik</item>
         <item>http://www.mediaindonesia.com/rss/2/ekonomi</item>
@@ -27,9 +33,23 @@
         <item>http://www.mediaindonesia.com/rss/10/hiburan</item>
         <item>http://www.mediaindonesia.com/rss/11/opini</item>
     </string-array>
-        <string name="Update">Update</string>
-        <string name="viewOnBrowser">View on Web Browser</string>
-        <string name="About">About</string>
-        <string name="AboutDesc"><![CDATA[Unofficial android application to read mediaindonesia.com.\n\nAplikasi ini dikembangkan secara independen oleh PT. MONDIAL TEKNOLOGI SOLUSI (MTS, http://www.mondial.co.id) dengan menggunakan MTSREADER.\n\nDapatkan aplikasi-aplikasi lain di\nhttps://market.android.com/search?q=mtsreader]]></string>
+    
+    <string-array name="channel_tracker_url">
+        <item>mediaindonesia/politik</item>
+        <item>mediaindonesia/ekonomi</item>
+        <item>mediaindonesia/olahraga</item>
+        <item>mediaindonesia/sepakbola</item>
+        <item>mediaindonesia/megapolitan</item>
+        <item>mediaindonesia/mancanegara</item>
+        <item>mediaindonesia/iptek</item>
+        <item>mediaindonesia/humaniora</item>
+        <item>mediaindonesia/hiburan</item>
+        <item>mediaindonesia/opini</item>
+    </string-array>
+    
+    <string name="Update">Update</string>
+    <string name="viewOnBrowser">View on Web Browser</string>
+    <string name="About">About</string>
+    <string name="AboutDesc"><![CDATA[Unofficial android application to read mediaindonesia.com.\n\nAplikasi ini dikembangkan secara independen oleh PT. MONDIAL TEKNOLOGI SOLUSI (MTS, http://www.mondial.co.id) dengan menggunakan MTSREADER.\n\nDapatkan aplikasi-aplikasi lain di\nhttps://market.android.com/search?q=mtsreader]]></string>
 
 </resources>
