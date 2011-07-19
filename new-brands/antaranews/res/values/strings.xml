@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">antaranews.com</string>
-    <string name="tracker_prefix">antaranews.com</string>
 
+    <string name="analytics_tracker_id">UA-22304301-3</string>
+    <string name="tracker_home">antaranews</string>
+    <string name="tracker_about">antaranews/about</string>
+    <bool name="prefix_analytics_with_home_url">true</bool>
+    <bool name="prefix_analytics_with_hostname">true</bool>
+    
     <string-array name="channels_title">
         <item>ANTARA News Terkini</item>
-
         <item>ANTARA Top News</item>
-
+        
         <item>Nasional</item>
         <item>Nasional - Umum</item>
         <item>Nasional - Polkam</item>
@@ -129,9 +133,77 @@
         <item>http://antaranews.com/rss/artikel-jeda</item>
         <item>http://antaranews.com/rss/artikel-visi</item>
     </string-array>
-        <string name="Update">Update</string>
-        <string name="viewOnBrowser">View on Web Browser</string>
-        <string name="About">About</string>
-        <string name="AboutDesc"><![CDATA[Unofficial android application to read antaranews.com.\n\nAplikasi ini dikembangkan secara independen oleh PT. MONDIAL TEKNOLOGI SOLUSI (MTS, http://www.mondial.co.id) dengan menggunakan MTSREADER.\n\nDapatkan aplikasi-aplikasi lain di\nhttps://market.android.com/search?q=mtsreader]]></string>
+    
+    <string-array name="channel_tracker_url">
+        <item>terkini</item>
+        <item>topnews</item>
+        
+        <item>nasional</item>
+        <item>nasional/umum</item>
+        <item>nasional/polkam</item>
+        <item>nasional/hukum</item>
+        <item>nasional/pendidikan</item>
+        <item>nasional/kesehatan</item>
+        <item>nasional/naker</item>
+        <item>nasional/unik</item>
+
+        <item>internasional</item>
+        <item>internasional/asiaoseania</item>
+        <item>internasiona/amerika</item>
+        <item>internasional/eropa</item>
+        <item>internasional/timur-tengah</item>
+        <item>internasional/afrika</item>
+
+        <item>ekonomi</item>
+        <item>ekonomi/makro</item>
+        <item>ekonomi/moneter</item>
+        <item>ekonomi/bisnis</item>
+        <item>ekonomi/bursa</item>
+        <item>ekonomi/edukasi-bisnis</item>
+        <item>ekonomi/info-perbankan</item>
+        <item>ekonomi/market-focus</item>
+
+        <item>olahraga</item>
+        <item>olahraga/sepakbola</item>
+        <item>olahraga/tenis</item>
+        <item>olahraga/bulutangkis</item>
+        <item>olahraga/basket</item>
+        <item>olahraga/tinju</item>
+        <item>olahraga/balap</item>
+        <item>olahraga/umum</item>
+
+        <item>hiburan</item>
+        <item>hiburan/sinema</item>
+        <item>hiburan/musik</item>
+        <item>hiburan/selebriti</item>
+        <item>hiburan/seni-budaya</item>
+        <item>hiburan/gaya-hidup</item>
+
+        <item>teknologi</item>
+        <item>teknologi/sains</item>
+        <item>teknologi/komputer</item>
+        <item>teknologi/gadget</item>
+        <item>teknologi/internet</item>
+
+        <item>warta-bumi</item>
+        <item>warta-bumi/pemanasan-global</item>
+        <item>warta-bumi/flora-fauna</item>
+        <item>warta-bumi/pencemaran</item>
+
+        <item>artikel</item>
+        <item>artikel/spektrum</item>
+        <item>artikel/komentar</item>
+        <item>artikel/pumpunan</item>
+        <item>artikel/opini</item>
+        <item>artikel/buku</item>
+        <item>artikel/antara-kita</item>
+        <item>artikel/jeda</item>
+        <item>artikel/visi</item>
+    </string-array>
+
+    <string name="Update">Update</string>
+    <string name="viewOnBrowser">View on Web Browser</string>
+    <string name="About">About</string>
+    <string name="AboutDesc"><![CDATA[Unofficial android application to read antaranews.com.\n\nAplikasi ini dikembangkan secara independen oleh PT. MONDIAL TEKNOLOGI SOLUSI (MTS, http://www.mondial.co.id) dengan menggunakan MTSREADER.\n\nDapatkan aplikasi-aplikasi lain di\nhttps://market.android.com/search?q=mtsreader]]></string>
 
 </resources>
