@@ -9,6 +9,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
+import android.webkit.WebView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -79,6 +80,11 @@ public class RssFeeds extends ListActivity {
     protected void onDestroy() {
     	super.onDestroy();
     	
+    	// clear cache
+    	WebView wv = new WebView(this);
+    	wv.clearCache(true);
+	    
+    	// stopping analytics
     	tracker.stop();
     }
     
