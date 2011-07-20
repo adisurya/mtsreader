@@ -114,7 +114,19 @@ public class RssItemDetail extends Activity {
             	Intent aboutIntent = new Intent(this, About.class);
             	startActivity(aboutIntent);
             	return true;
-	        default:
+        	case R.id.share:
+            	SharedPreferences serialized = getSharedPreferences(SERIALIZED_NAME, 0);
+        		String uri = serialized.getString("uri", "");
+        		if (uri == "") {
+        			uri = RssItems.rssUris.get(RssItems.contentId).toString();
+        		}
+            	Intent shareIntent = new Intent(Intent.ACTION_SEND);
+            	shareIntent.setType("text/plain");
+            	shareIntent.putExtra(android.content.Intent.EXTRA_TEXT, uri);
+            	startActivity(Intent.createChooser(shareIntent, "Share using"));
+            	return true;
+
+        	default:
                 return super.onOptionsItemSelected(item);
         }
     }
