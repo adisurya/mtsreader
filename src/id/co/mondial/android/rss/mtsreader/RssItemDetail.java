@@ -83,7 +83,7 @@ public class RssItemDetail extends Activity {
 
         WebView mWebView = (WebView) findViewById(R.id.webview);
         mWebView.getSettings().setJavaScriptEnabled(true);
-        mWebView.loadData(descText, "text/html", "utf-16");
+        mWebView.loadDataWithBaseURL(null, descText, "text/html", "utf-8", null);
         
     }
     
