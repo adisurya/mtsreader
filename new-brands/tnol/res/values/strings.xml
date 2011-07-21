@@ -16,6 +16,8 @@
     
     <string-array name="channels_title">
         <item>Utama</item>
+        <item>Utama - Indonesia</item>
+        <item>Utama - English</item>
         <item>Dari Komunitas</item>
         <item>Aktifitas</item>
         <item>Intermor</item>
@@ -29,6 +31,8 @@
     
     <string-array name="channels_url">
         <item>http://www.tnol.co.id/id.feed?type=rss</item>
+        <item>http://is.gd/n8fSFx</item>
+        <item>http://is.gd/XInTaW</item>
         <item>http://www.tnol.co.id/community/community-writes.feed?type=rss</item>
         <item>http://www.tnol.co.id/community/activities.feed?type=rss</item>
         <item>http://www.tnol.co.id/-intermor.feed?type=rss</item>
@@ -42,6 +46,8 @@
     
     <string-array name="channel_tracker_url">
         <item></item>
+        <item>id/index.html</item>
+        <item>en/index.html</item>
         <item>id/community/community-writes.html</item>
         <item>id/activities.html</item>
         <item>id/-intermor.html</item>
