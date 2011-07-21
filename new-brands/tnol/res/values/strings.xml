@@ -19,6 +19,7 @@
         <item>Utama - Indonesia</item>
         <item>Utama - English</item>
         <item>Dari Komunitas</item>
+        <item>Agenda</item>
         <item>Aktifitas</item>
         <item>Intermor</item>
         <item>Blog Komunitas</item>
@@ -34,6 +35,7 @@
         <item>http://is.gd/n8fSFx</item>
         <item>http://is.gd/XInTaW</item>
         <item>http://www.tnol.co.id/community/community-writes.feed?type=rss</item>
+        <item>http://www.tnol.co.id/community/community/events.feed?type=rss</item>
         <item>http://www.tnol.co.id/community/activities.feed?type=rss</item>
         <item>http://www.tnol.co.id/-intermor.feed?type=rss</item>
         <item>http://www.tnol.co.id/my-blog.feed?type=rss</item>
@@ -49,6 +51,7 @@
         <item>id/index.html</item>
         <item>en/index.html</item>
         <item>id/community/community-writes.html</item>
+        <item>id/community/community/events.html</item>
         <item>id/activities.html</item>
         <item>id/-intermor.html</item>
         <item>id/my-blog.html</item>
