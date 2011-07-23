@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kompas.com</string>
+
+    <string name="analytics_tracker_id">UA-22304301-3</string>
+    <string name="tracker_home">kompas</string>
+    <string name="tracker_about">kompas/about</string>
+    <bool name="prefix_analytics_with_home_url">true</bool>
+    <bool name="prefix_analytics_with_hostname">false</bool>
+    
+    <string-array name="channels_title">
+        <item>All</item>
+    </string-array>
+
+    <string-array name="channels_url">
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FBAakxX]]></item>
+    </string-array>
+    
+    <string-array name="channel_tracker_url">
+        <item>kompas/all</item>
+    </string-array>
+
+    <string name="Update">Update</string>
+    <string name="viewOnBrowser">View on Web Browser</string>
+    <string name="About">About</string>
+    <string name="AboutDesc"><![CDATA[Unofficial android application to read Kompas.com.\n\nAplikasi ini dikembangkan secara independen oleh PT. MONDIAL TEKNOLOGI SOLUSI (MTS, http://www.mondial.co.id) dengan menggunakan MTSREADER.\n\nDapatkan aplikasi-aplikasi lain di\nhttps://market.android.com/search?q=mtsreader]]></string>
+
+</resources>
