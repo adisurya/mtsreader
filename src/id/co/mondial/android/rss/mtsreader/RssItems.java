@@ -11,6 +11,7 @@ import org.apache.http.HttpStatus;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
+import org.mcsoxford.rss.RSSFault;
 import org.mcsoxford.rss.RSSFeed;
 import org.mcsoxford.rss.RSSItem;
 import org.mcsoxford.rss.RSSReader;
@@ -157,7 +158,7 @@ public class RssItems extends ListActivity implements Runnable {
     	rssUris.clear();
         
     	try {
-        	RSSFeed feed = reader.load(url);
+    		RSSFeed feed = reader.load(url);
         	List<RSSItem> feedItems = feed.getItems();
         	Iterator<RSSItem> feedIterator = feedItems.iterator();
         	
@@ -169,9 +170,12 @@ public class RssItems extends ListActivity implements Runnable {
     			rssUris.add(rssItem.getLink());
         	}
         }
-        catch (Exception e) {
-        	showToast("rss parsing error");
-        }
+    	catch (RSSFault e) {
+    		showToast(e.toString());
+    	}
+		catch (Exception e) {
+			showToast("rss parsing error");
+		}
 
     	closeDialog();
     }
