@@ -10,14 +10,255 @@
     
     <string-array name="channels_title">
         <item>All</item>
+        <item>Rubrik Nasional</item>
+        <item>Rubrik Regional</item>
+        <item>Rubrik Internasional</item>
+        
+        <item>Rubrik Megapolitan</item>
+        <item>Rubrik Bisnis Keuangan</item>
+        <item>Rubrik Olahraga</item>
+        <item>Rubrik Sains</item>
+        
+        <item>Rubrik Travel</item>
+        <item>Rubrik Oase</item>
+        <item>Rubrik Edukasi</item>
+        <item>Rubrik English</item>
+        
+        <item>Rubrik Wisata Kota Toea</item>
+        
+        <!-- KompasBola -->
+        <item>KompasBola - All</item>
+        <item>KompasBola - Liga Indonesia</item>
+        <item>KompasBola - Liga Inggris</item>
+        <item>KompasBola - Liga Italia</item>
+        <item>KompasBola - Liga Spanyol</item>
+        <item>KompasBola - Liga Jerman</item>
+        <item>KompasBola - Liga Champion</item>
+        <item>KompasBola - Internasional</item>
+        <item>KompasBola - Lain</item>
+        
+        <!-- KompasEntertainment -->
+        <item>KompasEntertainment - All</item>
+        <item>KompasEntertainment - Musik</item>
+        <item>KompasEntertainment - Cinema</item>
+        <item>KompasEntertainment - Style</item>
+        <item>KompasEntertainment - Gossips</item>
+        <item>KompasEntertainment - City Tonite</item>
+        
+        <!-- KompasTekno -->
+        <item>KompasTekno - All</item>
+        <item>KompasTekno - Internet</item>
+        <item>KompasTekno - Cyberlife</item>
+        <item>KompasTekno - Gadget</item>
+        <item>KompasTekno - Lifestyle</item>
+        <item>KompasTekno - E-Bussiness</item>
+        <item>KompasTekno - Telecom</item>
+        <item>KompasTekno - Software</item>
+        <item>KompasTekno - Hardware</item>
+        
+        <!-- KompasOtomotif -->
+        <item>KompasOtomotif - All</item>
+        <item>KompasOtomotif - News</item>
+        <item>KompasOtomotif - Produk Baru</item>
+        <item>KompasOtomotif - Test</item>
+        <item>KompasOtomotif - Modifikasi</item>
+        <item>KompasOtomotif - Tips n Trik</item>
+        <item>KompasOtomotif - Teknologi</item>
+        <item>KompasOtomotif - Sport</item>
+        
+        <!-- KompasFemale -->
+        <item>KompasFemale - All</item>
+        <item>KompasFemale - Ibu dan Anak</item>
+        <item>KompasFemale - Etalase</item>
+        <item>KompasFemale - Cantik dan Gaya</item>
+        <item>KompasFemale - Karir</item>
+        
+        <item>KompasFemale - Relationship</item>
+        <item>KompasFemale - Bugar dan Sehat</item>
+        <item>KompasFemale - Beranda</item>
+        <item>KompasFemale - Dapur</item>
+        <item>KompasFemale - Wirausaha</item>
+        
+        <!-- KompasProperti -->
+        <item>KompasProperti - All</item>
+        <item>KompasProperti - Berita Terkini</item>
+        <item>KompasProperti - Hunian</item>
+        <item>KompasProperti - Arsitektur</item>
+        <item>KompasProperti - Konstruksi</item>
+        
+        <item>KompasProperti - Kawasan Terpadu</item>
+        <item>KompasProperti - Kolom</item>
+        <item>KompasProperti - Figur</item>
+        <item>KompasProperti - Tips</item> 
     </string-array>
 
     <string-array name="channels_url">
         <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FBAakxX]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FMvY6L4]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FVhMYft]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FYE0Yxx]]></item>
+        
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2Fj2RB27]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FXtipcF]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FRZV8FP]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FZpvD84]]></item>
+        
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FViqZu4]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2F5JYl6P]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FjKn3rD]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FJoxnD2]]></item>
+        
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2F8OAAu7]]></item>
+        
+        <!-- KompasBola -->
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FBaRbYr]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FtIQkOV]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FrG6l8z]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FzRPyPn]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FJA1tPy]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FKemdcj]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FWrJiEk]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2F9z0n6N]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2F4Qz1Q7]]></item>
+        
+        <!-- KompasEntertainment -->
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2F7TbIYM]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FUZ6d1Q]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FjhZu8d]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2F5G0IjZ]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FWoMjfM]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2F6ZdJt5]]></item>
+        
+        <!-- KompasTekno -->
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FRMWehO]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FNb7diB]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FsryewS]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FSsOhIL]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FVzA4gM]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FDilOvd]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2F4eX3qM]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2F7IxTY6]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FtEQ4Uz]]></item>
+        
+        <!-- KompasOtomotif -->
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FhVT05Y]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FaTVrjQ]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FOAaFAB]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FQcSNqb]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FCo1eDa]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FB8qZJ2]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FheYbqM]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FoWTC7T]]></item>
+        
+        <!-- KompasFemale -->
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FXNOkNE]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2F1mOevT]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FAmlqFF]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FGj0J11]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FgDWlEe]]></item>
+        
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FJ2sRRa]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FwFJJG3]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FF0wo0Q]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FxgFoGR]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FxyL9jn]]></item>
+        
+        <!-- KompasProperti -->
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FLK21wq]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FYzAeWO]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FFzr5wY]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FSrg309]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FqEBh4C]]></item>
+        
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FTnKMog]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FNhqlur]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FWcz6mQ]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FodSHcd]]></item>
+        
     </string-array>
     
     <string-array name="channel_tracker_url">
         <item>kompas/all</item>
+        <item>kompas/nasional</item>
+        <item>kompas/regional</item>
+        <item>kompas/internasional</item>
+        
+        <item>kompas/megapolitan</item>
+        <item>kompas/bisniskeuangan</item>
+        <item>kompas/olahraga</item>
+        <item>kompas/sains</item>
+        
+        <item>kompas/travel</item>
+        <item>kompas/oase</item>
+        <item>kompas/edukasi</item>
+        <item>kompas/english</item>
+        
+        <item>kompas/wisatakotatoea</item>
+        
+        <!-- KompasBola -->
+        <item>kompas/bola</item>
+        <item>kompas/bolaindonesia</item>
+        <item>kompas/bolainggris</item>
+        <item>kompas/bolaitalia</item>
+        <item>kompas/bolaspanyol</item>
+        <item>kompas/bolajerman</item>
+        <item>kompas/bolachampion</item>
+        <item>kompas/bolainternasional</item>
+        <item>kompas/bolalain</item>
+        
+        <!-- KompasEntertainment -->
+        <item>kompas/entertainment</item>
+        <item>kompas/entertainmentmusik</item>
+        <item>kompas/entertainmentcinema</item>
+        <item>kompas/entertainmentstyle</item>
+        <item>kompas/entertainmentgossipi</item>
+        <item>kompas/entertainmentcitytonite</item>
+        
+        <!-- KompasTekno -->
+        <item>kompas/tekno</item>
+        <item>kompas/teknointernet</item>
+        <item>kompas/teknocyberlife</item>
+        <item>kompas/teknogadget</item>
+        <item>kompas/teknolifestyle</item>
+        <item>kompas/teknoebussiness</item>
+        <item>kompas/teknotelecom</item>
+        <item>kompas/teknosoftware</item>
+        <item>kompas/teknohardware</item>
+        
+        <!-- KompasOtomotif -->
+        <item>kompas/otomotif</item>
+        <item>kompas/otomotifnews</item>
+        <item>kompas/otomotifprodukbaru</item>
+        <item>kompas/otomotiftest</item>
+        <item>kompas/otomotifmodifikasi</item>
+        <item>kompas/otomotiftipsntrik</item>
+        <item>kompas/otomotifteknologi</item>
+        <item>kompas/otomotifsport</item>
+        
+        <!-- KompasFemale -->
+        <item>kompas/female</item>
+        <item>kompas/femaleibuanak</item>
+        <item>kompas/femaleetalase</item>
+        <item>kompas/femalecantikgaya</item>
+        <item>kompas/femalekarir</item>
+        
+        <item>kompas/femalerelationship</item>
+        <item>kompas/femalebugarsehat</item>
+        <item>kompas/femaleberanda</item>
+        <item>kompas/femaledapur</item>
+        <item>kompas/femalewirausaha</item>
+        
+        <!-- KompasProperti -->
+        <item>kompas/properti</item>
+        <item>kompas/propertiberita</item>
+        <item>kompas/propertihunian</item>
+        <item>kompas/propertiarsitektur</item>
+        <item>kompas/propertikonstruksi</item>
+        
+        <item>kompas/propertikawasanterpadu</item>
+        <item>kompas/propertikolom</item>
+        <item>kompas/propertifigur</item>
+        <item>kompas/propertitips</item>
     </string-array>
 
     <string name="Update">Update</string>
