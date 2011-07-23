@@ -171,7 +171,6 @@ public class RssItems extends ListActivity implements Runnable {
         }
         catch (Exception e) {
         	showToast("rss parsing error");
-        	return;
         }
 
     	closeDialog();
