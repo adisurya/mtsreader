@@ -89,7 +89,26 @@
         <item>KompasProperti - Kawasan Terpadu</item>
         <item>KompasProperti - Kolom</item>
         <item>KompasProperti - Figur</item>
-        <item>KompasProperti - Tips</item> 
+        <item>KompasProperti - Tips</item>
+        
+        <!-- KompasCetak -->
+        <item>KompasCetak - All</item>
+        <item>KompasCetak - Berita Utama</item>
+        <item>KompasCetak - Metropolitan</item>
+        <item>KompasCetak - Nusantara</item>
+        <item>KompasCetak - Internasional</item>
+        
+        <item>KompasCetak - Humaniora</item>
+        <item>KompasCetak - Olahraga</item>
+        <item>KompasCetak - Bisnis dan Keuangan</item>
+        <item>KompasCetak - Politik dan Hukum</item>
+        <item>KompasCetak - Sumatera Bagian Selatan</item>
+        
+        <item>KompasCetak - Sumatera Bagian Utara</item>
+        
+        <!-- KompasImages -->
+        <item>KompasImages</item>
+
     </string-array>
 
     <string-array name="channels_url">
@@ -175,6 +194,24 @@
         <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FWcz6mQ]]></item>
         <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FodSHcd]]></item>
         
+        <!-- KompasCetak -->
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2Fddulf2]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FH3VvBp]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2Fqdoe9A]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FkAMQOg]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FxoEPIz]]></item>
+        
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FTRJO0A]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FM3cRwb]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FYEruAr]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FDe9Lgm]]></item>
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FpfZxIa]]></item>
+        
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2FOstEgK]]></item>
+        
+        <!-- KompasImages -->
+        <item><![CDATA[http://adhisimon.or.id/kompas-rss/?url=http%3A%2F%2Fis.gd%2Fvy2HCr]]></item>
+        
     </string-array>
     
     <string-array name="channel_tracker_url">
@@ -259,6 +296,25 @@
         <item>kompas/propertikolom</item>
         <item>kompas/propertifigur</item>
         <item>kompas/propertitips</item>
+        
+        <!-- KompasCetak -->
+        <item>kompas/cetak</item>
+        <item>kompas/cetakutama</item>
+        <item>kompas/cetakmetropolitan</item>
+        <item>kompas/cetaknusantara</item>
+        <item>kompas/cetakinternasional</item>
+        
+        <item>kompas/cetakhumaniora</item>
+        <item>kompas/cetakolahraga</item>
+        <item>kompas/cetakbisnis</item>
+        <item>kompas/cetakpolhuk</item>
+        <item>kompas/cetaksumbagsel</item>
+        
+        <item>kompas/cetaksumbagut</item>
+        
+        <!-- KompasImages -->
+        <item>kompas/images</item>
+
     </string-array>
 
     <string name="Update">Update</string>
