@@ -7,19 +7,63 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="744.09448819"
-   height="1052.3622047"
+   width="81.335579"
+   height="81.350372"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.1 r9760"
    sodipodi:docname="icon.svg"
-   inkscape:export-filename="/home/adhisimon/tmp/kompas.png"
-   inkscape:export-xdpi="566.53998"
-   inkscape:export-ydpi="566.53998">
+   inkscape:export-filename="/home/adhisimon/workspace/Android-Media-Indonesia/new-brands/kompas/res/drawable-hdpi/icon.png"
+   inkscape:export-xdpi="79.669998"
+   inkscape:export-ydpi="79.669998">
   <defs
-     id="defs4" />
+     id="defs4">
+    <linearGradient
+       id="linearGradient3801">
+      <stop
+         style="stop-color:#b01e1c;stop-opacity:1;"
+         offset="0"
+         id="stop3803" />
+      <stop
+         style="stop-color:#ff6600;stop-opacity:1;"
+         offset="1"
+         id="stop3805" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3801"
+       id="radialGradient3807"
+       cx="253.34743"
+       cy="375.37991"
+       fx="253.34743"
+       fy="375.37991"
+       r="40.667789"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3801-2"
+       id="radialGradient3807-8"
+       cx="253.34743"
+       cy="375.37991"
+       fx="253.34743"
+       fy="375.37991"
+       r="40.667789"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient3801-2">
+      <stop
+         style="stop-color:#b01e1c;stop-opacity:1;"
+         offset="0"
+         id="stop3803-3" />
+      <stop
+         style="stop-color:#ff6600;stop-opacity:1;"
+         offset="1"
+         id="stop3805-6" />
+    </linearGradient>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -28,8 +72,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="323.35587"
-     inkscape:cy="672.85714"
+     inkscape:cx="28.820374"
+     inkscape:cy="43.700317"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -37,7 +81,11 @@
      inkscape:window-height="743"
      inkscape:window-x="0"
      inkscape:window-y="26"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -53,29 +101,46 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-212.67963,-334.71213)">
     <rect
-       style="fill:#ff6600;fill-opacity:1;stroke:none"
+       style="fill:url(#radialGradient3807);fill-opacity:1;stroke:none"
        id="rect3124"
        width="81.335579"
        height="81.335579"
        x="212.67963"
        y="334.71213"
        ry="19.162836" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none"
+       d="m 212.6875,387.375 0,9.5 c 0,10.61621 8.54004,19.1875 19.15625,19.1875 l 43,0 C 285.45996,416.0625 294,407.49121 294,396.875 l 0,-9.5 -81.3125,0 z"
+       id="rect3016"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3787"
+       y="384.33307"
+       x="223.00366"
+       style="font-size:64px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#800000;fill-opacity:1;stroke:none;font-family:Bodoni MT;-inkscape-font-specification:Bodoni MT Italic"
+       xml:space="preserve"><tspan
+         y="384.33307"
+         x="223.00366"
+         id="tspan3789"
+         sodipodi:role="line">K</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:64px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bodoni MT;-inkscape-font-specification:Bodoni MT Italic"
-       x="225.00366"
-       y="384.33307"
+       x="227.00366"
+       y="382.33307"
        id="text3120"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3122"
-         x="225.00366"
-         y="384.33307">K</tspan></text>
+         x="227.00366"
+         y="382.33307">K</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:27.08032417px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:27.08032417px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;font-family:Sans"
        x="223.7746"
        y="410.49442"
        id="text3894"
@@ -84,6 +149,68 @@
          id="tspan3896"
          x="223.7746"
          y="410.49442"
-         style="font-weight:bold;-inkscape-font-specification:Sans Bold">RSS</tspan></text>
+         style="font-weight:bold;fill:#cccccc;-inkscape-font-specification:Sans Bold">RSS</tspan></text>
+    <rect
+       style="fill:#ff6601;fill-opacity:0.94117647;stroke:none"
+       id="rect3124-0"
+       width="81.335579"
+       height="81.335579"
+       x="339.01184"
+       y="516.38733"
+       ry="19.162836"
+       inkscape:export-filename="/home/adhisimon/workspace/Android-Media-Indonesia/new-brands/kompas/artstock/logo-512.png"
+       inkscape:export-xdpi="566.53998"
+       inkscape:export-ydpi="566.53998" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none"
+       d="m 339.01971,569.05019 0,9.5 c 0,10.61621 8.54004,19.1875 19.15625,19.1875 l 43,0 c 10.61621,0 19.15625,-8.57129 19.15625,-19.1875 l 0,-9.5 -81.3125,0 z"
+       id="rect3016-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/adhisimon/workspace/Android-Media-Indonesia/new-brands/kompas/artstock/logo-512.png"
+       inkscape:export-xdpi="566.53998"
+       inkscape:export-ydpi="566.53998" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3787-0"
+       y="566.00824"
+       x="349.33588"
+       style="font-size:64px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#800000;fill-opacity:1;stroke:none;font-family:Bodoni MT;-inkscape-font-specification:Bodoni MT Italic"
+       xml:space="preserve"
+       inkscape:export-filename="/home/adhisimon/workspace/Android-Media-Indonesia/new-brands/kompas/artstock/logo-512.png"
+       inkscape:export-xdpi="566.53998"
+       inkscape:export-ydpi="566.53998"><tspan
+         y="566.00824"
+         x="349.33588"
+         id="tspan3789-7"
+         sodipodi:role="line">K</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:64px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bodoni MT;-inkscape-font-specification:Bodoni MT Italic"
+       x="353.33588"
+       y="564.00824"
+       id="text3120-0"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/adhisimon/workspace/Android-Media-Indonesia/new-brands/kompas/artstock/logo-512.png"
+       inkscape:export-xdpi="566.53998"
+       inkscape:export-ydpi="566.53998"><tspan
+         sodipodi:role="line"
+         id="tspan3122-2"
+         x="353.33588"
+         y="564.00824">K</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:27.08032417px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;font-family:Sans"
+       x="350.10681"
+       y="592.16962"
+       id="text3894-0"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/adhisimon/workspace/Android-Media-Indonesia/new-brands/kompas/artstock/logo-512.png"
+       inkscape:export-xdpi="566.53998"
+       inkscape:export-ydpi="566.53998"><tspan
+         sodipodi:role="line"
+         id="tspan3896-0"
+         x="350.10681"
+         y="592.16962"
+         style="font-weight:bold;fill:#cccccc;-inkscape-font-specification:Sans Bold">RSS</tspan></text>
   </g>
 </svg>
